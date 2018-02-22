@@ -103,3 +103,7 @@ tidyData2 <- tidyData1 %>% group_by(Dataset, Subject, Activity, Measurement) %>%
 
 ## THIS IS THE END OF QUESTION 5
 ## ======================================================================
+
+# Export datasets to hard drive
+write.csv(extract, "extract.csv")
+write.csv(tidyData2, "tidyData2.csv")
