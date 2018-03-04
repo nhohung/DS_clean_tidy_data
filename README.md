@@ -2,6 +2,8 @@ Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course
 
 Also, the two exported files are **extract.csv** for the first 4 questions (clean up data), and **tidyData2.csv** for the last question (tidy up data).
 
+**=============**
+
 _Code lines 1-6 load the needed libraries_
 
 _Code lines 10-16 load the data files_
@@ -124,3 +126,11 @@ The last commands are for exporting the dataset to csv files.
 **extract.csv**: for cleaned data
 
 **tidyData2.csv**: for tidied data
+
+**=============**
+
+I hope you can follow my description, if there is something not clear, please give me comments.
+
+Thanks for grading my assignment.
+
+Hung
