@@ -108,3 +108,5 @@ names(tidyData2)[5] <- 'Mean_Summarized'
 # Export datasets to hard drive
 write.csv(extract, "extract.csv")
 write.csv(tidyData2, "tidyData2.csv")
+write.table(extract, file = "extract.txt", row.names = FALSE)
+write.table(tidyData2, file = "tidyData2.txt", row.names = FALSE)
