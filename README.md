@@ -2,10 +2,11 @@ Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course
 
 Also, the two exported files are **extract.csv** for the first 4 questions, and **tidyData2.csv** for the last question.
 
-_Codes from lines 1-6 load the needed libraries_
+_Code lines 1-6 load the needed libraries_
 
-_Codes from lines 10-16 load the files_
+_Code lines 10-16 load the files_
 
+### The first 4 questions
 **Data overview:**
 
 The original data is:
@@ -86,9 +87,7 @@ To make the variable names more informative, I perform the following steps:
 
 _This would be the end of Question 4._
 
-**Make tidy dataset (code lines 75-103)**
-
-For the last question, I:
+#### Make tidy dataset (code lines 75-103)
 
 - first rearrange the columns, now follow: 4 reference information, 57 XYZ data measurements and 29 mean/std data measurements (total of 90 columns).
 
@@ -96,23 +95,23 @@ For the last question, I:
 
 - then merge these 2 restructured data together
 
-The data now has this structure:
+		The data now has this structure:
 
-	4 reference columns
+			4 reference columns
 
-	1 column of measurement type
+			1 column of measurement type
 
-	1 column of corresponding measurement value
+			1 column of corresponding measurement value
 
-Its dimension now becomes: 885714 x 6.
+		Its dimension now becomes: 885714 x 6.
 
 - for cleaning up, I factorize the columns and remove "Label" because it's already represented by "Activity".
 
-The data dimension is now 885714 x 5.
+		The data dimension is now 885714 x 5.
 
 - __(important)__ to create the independent dataset with the average of each variable for each activity and each subject, I use the summarise_at in group_by command, apply on Value of measurements.  _(code line 102)_
 
-The data dimension is now 15480 x 5.
+		The data dimension is now 15480 x 5.
 
 - I also changed the last column name from Value to Mean_Summarized to give descriptive meaning
 
