@@ -122,4 +122,5 @@ _This would be the end of Question 5._
 The last commands are for exporting the dataset to csv files.
 
 **extract.csv**: for cleaned data
+
 **tidyData2.csv**: for tidied data
