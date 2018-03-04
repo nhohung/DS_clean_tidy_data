@@ -1,4 +1,4 @@
-Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the `.R` file to complete the assignment.
+Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the `run_analysis.R` file to complete the assignment.
 
 Also, the two exported files are **extract.csv** for the first 4 questions (clean up data), and **tidyData2.csv** for the last question (tidy up data).
 
