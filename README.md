@@ -1,9 +1,9 @@
 # DS_clean_tidy_data
-Clean, tidy data (Coursera course)
+_ Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment._
 
-_ Hello! Below is the descriptions of my work, I'll show you how I code the .R file to complete the assignment._
 
 ** Codes from lines 1-6 load the needed libraries**
+
 ** Codes from lines 10-16 load the files**
 
 **Data overview:**
