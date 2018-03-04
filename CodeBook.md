@@ -1,13 +1,13 @@
-tidyData1:
+# tidyData1: contains 5 columns (5 variables) described below
 
-Dataset: Original dataset
+##### Dataset: Original dataset
 	test: Test set
 	train: Train set
 
-Subject: Identifier index of 30 volunteers
+##### Subject: Identifier index of 30 volunteers
 	1..30
 
-Activity: Assigned activity corresponding to action label
+##### Activity: Assigned activity corresponding to action label
 	Walking
 	Walking Upstairs
 	Walking Downstairs
@@ -15,7 +15,7 @@ Activity: Assigned activity corresponding to action label
 	Standing
 	Laying
 
-Measurement: type of measurement from accelerometer, gyroscope and their calculated variables in frequency domain. The variables were filtered such that only Mean and Standard deviation measurements are selected. Total number of filtered measurements: 86.
+##### Measurement: type of measurement from accelerometer, gyroscope and their calculated variables in frequency domain. The variables were filtered such that only Mean and Standard deviation measurements are selected. Total number of filtered measurements: 86.
 	tBodyAcc-mean-X
 	tBodyAcc-mean-Y
 	tBodyAcc-mean-Z
@@ -103,19 +103,19 @@ Measurement: type of measurement from accelerometer, gyroscope and their calcula
 	a(tBodyGyroMean,gravityMean)
 	a(tBodyGyroJerkMean,gravityMean)
 
-Value: corresponding value of the measurement type
-* End of tidyData1 file
+### Value: corresponding value of the measurement type
+* End of tidyData1 file *
 
-tidyData2:
+# tidyData2: contains 5 columns (5 variables) described below
 
-Dataset: Original dataset
+##### Dataset: Original dataset
 	test: Test set
 	train: Train set
 
-Subject: Identifier index of 30 volunteers
+##### Subject: Identifier index of 30 volunteers
 	1..30
 
-Activity: Assigned activity corresponding to action label
+##### Activity: Assigned activity corresponding to action label
 	Walking
 	Walking Upstairs
 	Walking Downstairs
@@ -123,7 +123,7 @@ Activity: Assigned activity corresponding to action label
 	Standing
 	Laying
 
-Measurement: type of measurement from accelerometer, gyroscope and their calculated variables in frequency domain. The variables were filtered such that only Mean and Standard deviation measurements are selected. Total number of filtered measurements: 86.
+##### Measurement: type of measurement from accelerometer, gyroscope and their calculated variables in frequency domain. The variables were filtered such that only Mean and Standard deviation measurements are selected. Total number of filtered measurements: 86.
 	tBodyAcc-mean-X
 	tBodyAcc-mean-Y
 	tBodyAcc-mean-Z
@@ -211,5 +211,5 @@ Measurement: type of measurement from accelerometer, gyroscope and their calcula
 	a(tBodyGyroMean,gravityMean)
 	a(tBodyGyroJerkMean,gravityMean)
 
-Mean_Summarized: mean of the corresponding values of the same measurement type
-* End of tidyData2 file
+##### Mean_Summarized: mean of the corresponding values of the same measurement type
+* End of tidyData2 file *
