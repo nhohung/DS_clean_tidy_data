@@ -39,7 +39,7 @@ The data after merging has a total of 10299 samples, each with 561 measurements.
 
 _This would be the end of Question 1._
 
-** Assign activity (code lines 31-40)**
+**Assign activity (code lines 31-40)**
 
 The next step is to assign Activity from Y value, based on the corresponding information in activity_labels.txt
 
@@ -69,17 +69,17 @@ To make the variable names more informative, I perform the following steps:
 
 - bring the last 4 columns to the leftmost and rename them to: "Dataset","Label","Subject","Activity".
 
-- among the remaining, I:
-
-	delete string "()" because they're redundant
+- among the remaining, I
+		
+		delete string "()" because they're redundant
 	
-	delete string "Freq" because they're already represented by prefix f
+		delete string "Freq" because they're already represented by prefix f
 	
-	delete one of the duplicated string "BodyBody"
+		delete one of the duplicated string "BodyBody"
 	
-	delete string ".1" because they're meaningless
+		delete string ".1" because they're meaningless
 	
-	replace prefix string "angle" to "a" for prefix consistency (t, f, a)
+		replace prefix string "angle" to "a" for prefix consistency (t, f, a)
 	
 (all of these operations are done using sub command)
 
