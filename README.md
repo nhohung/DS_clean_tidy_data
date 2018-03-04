@@ -1,12 +1,12 @@
 Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment.
 
-Also, the two exported files are **extract.csv** for the first 4 questions, and **tidyData2.csv** for the last question.
+Also, the two exported files are **extract.csv** for the first 4 questions (clean up data), and **tidyData2.csv** for the last question (tidy up data).
 
 _Code lines 1-6 load the needed libraries_
 
 _Code lines 10-16 load the files_
 
-### The first 4 questions
+### Clean data: The first 4 questions
 **Data overview:**
 
 The original data is:
@@ -87,7 +87,7 @@ To make the variable names more informative, I perform the following steps:
 
 _This would be the end of Question 4._
 
-### Question 5: Make tidy dataset (code lines 75-103)
+### Tidy up data: Question 5 (code lines 75-103)
 
 - first rearrange the columns, now follow: 4 reference information, 57 XYZ data measurements and 29 mean/std data measurements (total of 90 columns).
 
@@ -117,6 +117,9 @@ _This would be the end of Question 4._
 
 _This would be the end of Question 5._
 
-### Export dataset (code lines 108-110)
+### Export data (code lines 108-110)
 
 The last commands are for exporting the dataset to csv files.
+
+**extract.csv**: for cleaned data
+**tidyData2.csv**: for tidied data
