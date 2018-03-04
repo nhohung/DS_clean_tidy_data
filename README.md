@@ -87,7 +87,7 @@ To make the variable names more informative, I perform the following steps:
 
 _This would be the end of Question 4._
 
-#### Make tidy dataset (code lines 75-103)
+### Question 5: Make tidy dataset (code lines 75-103)
 
 - first rearrange the columns, now follow: 4 reference information, 57 XYZ data measurements and 29 mean/std data measurements (total of 90 columns).
 
@@ -117,6 +117,6 @@ _This would be the end of Question 4._
 
 _This would be the end of Question 5._
 
-**Export dataset (code lines 108-110)**
+### Export dataset (code lines 108-110)
 
 The last commands are for exporting the dataset to csv files.
