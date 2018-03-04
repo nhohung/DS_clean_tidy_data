@@ -119,13 +119,13 @@ _This would be the end of Question 4._
 
 _This would be the end of Question 5._
 
-### Export data (code lines 108-110)
+### Export data (code lines 108-112)
 
 The last commands are for exporting the dataset to csv files.
 
-**extract.csv**: for cleaned data
+**extract.csv** or **extract.txt**: for cleaned data
 
-**tidyData2.csv**: for tidied data
+**tidyData2.csv** or **tidyData2.txt**: for tidied data
 
 **_______________________________**
 
