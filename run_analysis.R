@@ -100,6 +100,7 @@ tidyData1 <- tidyData[,-2,drop=FALSE]
 
 # Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 tidyData2 <- tidyData1 %>% group_by(Dataset, Subject, Activity, Measurement) %>% summarise_at(vars(Value), mean)
+names(tidyData2)[5] <- 'Mean_Summarized'
 
 ## THIS IS THE END OF QUESTION 5
 ## ======================================================================
