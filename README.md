@@ -1,9 +1,10 @@
-# DS_clean_tidy_data
-_Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment._
+Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment.
 
-**Codes from lines 1-6 load the needed libraries**
+Also, the two exported files are **extract.csv** for the first 4 questions, and **tidyData2.csv** for the last question.
 
-**Codes from lines 10-16 load the files**
+_Codes from lines 1-6 load the needed libraries_
+
+_Codes from lines 10-16 load the files_
 
 **Data overview:**
 
