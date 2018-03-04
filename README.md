@@ -1,21 +1,28 @@
 # DS_clean_tidy_data
-_ Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment._
-
+_Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment._
 
 **Codes from lines 1-6 load the needed libraries**
 
 **Codes from lines 10-16 load the files**
 
 **Data overview:**
+
 The original data is:
+
 	train set:
+	
 		X: 7352 rows, 561 cols
+		
 		Y: 7352 rows,   1 cols
+		
 	test set:
+	
 		X: 2497 rows, 561 cols
+		
 		Y: 2497 rows,   1 cols
 
 The train data contains 7352 samples, each with 561 measurements.
+
 The test data contains 2497 samples, each with 561 measurements.
 
 **Add dataset type (code lines 18-20)**
