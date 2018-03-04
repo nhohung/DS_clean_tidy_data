@@ -2,9 +2,9 @@
 _ Hello! Below is the descriptions of my work in Clean, tidy data (Coursera course), I'll show you how I code the .R file to complete the assignment._
 
 
-** Codes from lines 1-6 load the needed libraries**
+**Codes from lines 1-6 load the needed libraries**
 
-** Codes from lines 10-16 load the files**
+**Codes from lines 10-16 load the files**
 
 **Data overview:**
 The original data is:
@@ -18,10 +18,10 @@ The original data is:
 The train data contains 7352 samples, each with 561 measurements.
 The test data contains 2497 samples, each with 561 measurements.
 
-** Add dataset type (code lines 18-20)**
+**Add dataset type (code lines 18-20)**
 Before merging these datasets, I add another column to each of them, indicating whether each sample belongs to train or test set. The new column is "train_test" and is valued "train"/"test" accordingly.
 
-** Merge data (code lines 22-26)**
+**Merge data (code lines 22-26)**
 For each train/test set, I first merge X, Y and Subject (the volunteer) together using *cbind*.
 Then I merge train and test sets together using *rbind*.
 The data after merging has a total of 10299 samples, each with 561 measurements. Dimension of merged data is 10299 x 564 (3 columns are **Y**, **Subject** and **train/test**).
@@ -34,7 +34,7 @@ Then I assign the activity for each sample by joining the activity labels with t
 The merged data now has another column **Activity**, total of 565.
 _This would be the end of Question 3._
 
-** Extract part of dataset (code lines 45-48)**
+**Extract part of dataset (code lines 45-48)**
 The next part is to extract all measurements on the mean and standard deviation for each sample.
 I first extract the column names of the latest data.
 I then find in these names which one has string "Mean"/"mean"/"std" (using grepl command) and extract them from the data.
@@ -53,7 +53,7 @@ To make the variable names more informative, I perform the following steps:
 (all of these operations are done using sub command)
 _This would be the end of Question 4._
 
-** Make tidy dataset (code lines 75-103)**
+**Make tidy dataset (code lines 75-103)**
 For the last question, I:
 - first rearrange the columns, now follow: 4 reference information, 57 XYZ data measurements and 29 mean/std data measurements (total of 90 columns).
 - then expand all measurements with respect to reference information in XYZ and mean/std data (using gather command, apply on all columns except the 4 reference columns)
@@ -75,5 +75,5 @@ The data dimension is now 15480 x 5.
 
 _This would be the end of Question 5._
 
-** Export dataset (code lines 108-110)**
+**Export dataset (code lines 108-110)**
 The last commands are for exporting the dataset to csv files.
